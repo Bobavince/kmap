@@ -39,7 +39,7 @@ print "done!"
 print "num records:", len(records)
 
 # Writing to disk
-print "writing cahce...",
+print "writing cache...",
 pickle.dump(records, open("adult.p", "w+"))
 pickle.dump(attrib_dict, open("attrib_dict.p", "w+"))
 print "done!"
